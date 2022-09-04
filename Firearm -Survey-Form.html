@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Firearm Survey Form</h1>
+    <p id="description">Thank you for purchase firearm please fill the form</p>
+    <form id="survey-form">
+        <section id="section1">
+            <fieldset>
+                <label id="name-label">Enter Your Name: <input placeholder="Full Name" type="text" id="name" name="name " required></label>
+                <label id="email-label">Enter Your Email: <input placeholder="Email@Example.com" type="email" id="email" name="email "required ></label>
+                <label id="number-label">Enter Your Number: <input placeholder="Age" type="number" id="number" name="number " min="17" max="99" required></label>
+             </fieldset>
+        </section>
+    <section class="section2" id="section2">
+        <fieldset>
+            <label id="firearm-purchase-label">Which Firearm Did You Bought?</label>
+            <select id="dropdown" required>
+                <option value="" required>Choose option</option>
+                <option value="1" required>Bolt Action</option>
+                <option value="2" required>Lever Action</option>
+                <option value="3" required>Pump Action</option>
+                <option value="4" required>Semi Automatic</option>
+                <option value="5" required>Break</option>
+            </select>
+            <label id="firearm-recommend-label">Would You Recommend Firearm?</label>
+            <label id="yes"><input class="inline" value="1" type="radio" name="question" required> Yes</label>
+            <label id="no"><input class="inline" value="2" type="radio" name="question" required> No</label>
+        </fieldset>
+        <label id="firearm-textarea">Fill Your Description?</label>
+        <textarea class="textarea" id="textarea" name="textarea" cols="50" rows="6">Enter a Text</textarea>
+    </section class="section3" id="section3">
+    <label id="Agree-to-Contact-You"><input class="inline" value="3" type="checkbox" name="Agree-to-Contact-You"> Agree to contact you for more questions</label>
+    <label id="term-and-condition"><input class="inline" value="3" type="checkbox" name="term-and-condition" required> Term & Condition</label>
+    <br>
+    <br>
+    <button id="submit" value="1" type="submit">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+body {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: #457b9d;
+}
+
+h1, p {
+    text-align: center;
+    padding: auto;
+}
+
+form {
+    padding-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0 0 0;
+    background-color: #f1faee;
+
+}
+
+.inline {
+    width: unset;
+    margin: auto;
+
+}
+
+label {
+    display: block;
+    margin: 0.5em 0;
+    color:#FCA311;
+}
+
+textarea {
+    background-color: #f1faee;
+}
+
+select {
+    width: 100%;
+    background-color: #f1faee;
+}
+
+fieldset:last-of-type{
+    border: none;
+}
+
+fieldset:last-of-type {
+    border-bottom: 2px black solid;
+    padding: 5px;
+    margin-bottom: 10px auto;
+}
+
+section {
+    margin: 0.5em 0;
+    padding:5px 0;
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #f1faee;
+    border: 2px black solid;
+    font-size: medium;
+    margin: auto;
+}
